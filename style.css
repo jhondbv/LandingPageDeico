@@ -70,8 +70,34 @@ body {
 
 /* --- Landing Page --- */
 
-.home-inner {
+.homeimage {
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/imagen2.jpg);
+}
+
+.linuxserverimage{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/linuxserver.jpg);
+}
+.arrendamientoimage{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/arrendamiento.jpg);
+}
+.softwareimage{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/software.jpg);
+}
+.cloudimage{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/cloud.jpg);
+}
+.firewallimage{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/firewall.png);
+}
+.storageimage{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/storage.jpg);
+}
+
+.virtualizationimage{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/virtualizacion.jpg);
+}
+.routerimage{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/router.jpg);
 }
 
 .caption {
@@ -145,16 +171,39 @@ h3.heading {
 
 .feature svg.svg-inline--fa {
     color: #959C95;
+
 }
 
+.feature svg.svg-inline--fa:hover {
+    color: #32F140;
+    cursor:pointer;
+
+}
+
+
 .feature h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     padding-bottom: .5rem;
 }
 
 .feature p {
     font-size: 1rem;
+}
+.feature img {
+    height:5rem;
+    margin-bottom: .5rem;
+    filter: invert(66%) sepia(6%) saturate(305%) hue-rotate(71deg) brightness(93%) contrast(84%);
+
+}
+
+.feature img:hover{
+    filter: invert(76%) sepia(21%) saturate(1701%) hue-rotate(67deg) brightness(96%) contrast(101%);
+    cursor: pointer;
+}
+
+.feature.img{
+    top:-1.8rem;
 }
 
 /* --- Tecnologies section --- */
